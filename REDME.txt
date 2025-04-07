@@ -1,0 +1,5 @@
+Funcionalidades:
+
+Gestão de membros:
+                Atributos: Primeiro Nome, Ultimo Nome, Endereço, telefone, email, aniversario, data de conversão, 
+                 Listar, Cadastrar, editar, apagar

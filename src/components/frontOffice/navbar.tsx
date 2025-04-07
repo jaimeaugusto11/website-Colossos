@@ -41,7 +41,7 @@ export function Nav() {
       <NavbarToggle />
       <NavbarCollapse className="mr-36">
         <NavbarLink
-          href="#"
+       
           className={`font-extrabold text-lg transition-colors duration-300 ${
             scrolled ? "text-gray-900" : "text-amber-50"
           }`}

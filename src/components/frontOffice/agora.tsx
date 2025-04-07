@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Agora() {
   return (
-    <div className="flex flex-col sm:flex-row justify-between items-center bg-orange-50 p-5">
+    <div className="flex flex-col sm:flex-row justify-between items-center bg-orange-50 p-16">
       {/* Seção da esquerda */}
       <div className="flex flex-col sm:flex-row gap-4 font-bold sm:ml-36 sm:mb-0 mb-4 items-center sm:items-start">
         <h3>Amanhã</h3>

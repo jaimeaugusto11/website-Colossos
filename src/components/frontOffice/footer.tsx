@@ -1,4 +1,3 @@
-
 "use client";
 
 import {
@@ -11,7 +10,13 @@ import {
   FooterLinkGroup,
   FooterTitle,
 } from "flowbite-react";
-import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
+import {
+  BsDribbble,
+  BsFacebook,
+  BsGithub,
+  BsInstagram,
+  BsTwitter,
+} from "react-icons/bs";
 
 export function Footr() {
   return (
@@ -19,17 +24,16 @@ export function Footr() {
       <div className="w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
-            <FooterBrand 
+            <FooterBrand
               href="https://flowbite.com"
               src="/clogo1.png"
               alt="Flowbite Logo"
-              className="w-56 sm:w-40 md:w-48 text-white" 
-             
+              className="w-56 sm:w-40 md:w-48 text-white"
             />
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div>
-              <FooterTitle title="Igreja" className="text-orange-400"/>
+              <FooterTitle title="Igreja" className="text-orange-400" />
               <FooterLinkGroup col className="text-white">
                 <FooterLink href="#">Conheça-nos</FooterLink>
                 <FooterLink href="#">Contribuição</FooterLink>
@@ -37,7 +41,7 @@ export function Footr() {
               </FooterLinkGroup>
             </div>
             <div>
-              <FooterTitle title="Pedidos Úteis" className="text-orange-400"/>
+              <FooterTitle title="Pedidos Úteis" className="text-orange-400" />
               <FooterLinkGroup col className="text-white">
                 <FooterLink href="#">Pedidos de Oração</FooterLink>
                 <FooterLink href="#">Conteúdos</FooterLink>
